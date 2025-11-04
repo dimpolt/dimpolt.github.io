@@ -1,0 +1,51 @@
+# === Node.js / Vite / React ===
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# === Vite / build cache ===
+.vite/
+vite.config.temp.*
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Editor / IDE ===
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# === OS temporary files ===
+*.tmp
+*.bak
+*.log
+*.swp
+*.lnk
+
+# === Optional: lock files (если не хочешь фиксировать версии) ===
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# === Coverage / test artifacts (если будут тесты) ===
+coverage/
+*.lcov
+
+# === Local environment files ===
+.env
+.env.*
+!.env.example
+
+# === GitHub Actions build output ===
+src/dist/
